@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_border"
+            android:id="@+id/homeSearch"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@null"
+            android:layout_margin="10dp"
+            app:queryHint="搜索新闻" />
+
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            app:banner_indicator_selected_width="14dp"
+            app:banner_indicator_selected_color="@color/red"
+            app:banner_indicator_normal_width="10dp"
+            app:banner_indicator_normal_color="@color/white"
+            android:layout_height="180dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="应用服务" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <view class="androidx.appcompat.app.AlertController$RecycleListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </view>
+
+        <com.example.smartcity_1.ui.views.MyGridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="5"
+            android:verticalSpacing="10dp"
+            android:id="@+id/gridView1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="热门主题" />
+
+        <com.example.smartcity_1.ui.views.MyGridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:verticalSpacing="10dp"
+            android:id="@+id/gridView2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="新闻分类" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabLayout" />
+
+        <com.example.smartcity_1.ui.views.MyListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
+
+    </LinearLayout>
+</ScrollView>

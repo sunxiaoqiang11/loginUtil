@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">智慧城市</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">全部服务</string>
+    <string name="title_notifications">智慧养老</string>
+    <string name="title_news">新闻</string>
+    <string name="title_personal">个人中心</string>
+
+    <string-array name="haopai">
+        <item>小型汽车</item>
+        <item>大型汽车</item>
+    </string-array>
+    <string-array name="chepai">
+        <item>粤</item>
+        <item>京</item>
+        <item>皖</item>
+    </string-array>
+
+    <string-array name="jinshen">
+        <item>正常</item>
+        <item>痴呆</item>
+        <item>抑郁</item>
+        <item>暴力</item>
+    </string-array>
+
+    <string-array name="huodong">
+        <item>正常</item>
+        <item>拄拐</item>
+        <item>轮椅</item>
+        <item>卧床</item>
+    </string-array>
+
+    <string-array name="shenghuo">
+        <item>饮食</item>
+        <item>洗澡</item>
+        <item>穿衣</item>
+        <item>修饰</item>
+    </string-array>
+    <string-array name="shenti">
+        <item>优</item>
+        <item>良</item>
+        <item>中</item>
+        <item>差</item>
+    </string-array>
+
+
+</resources>

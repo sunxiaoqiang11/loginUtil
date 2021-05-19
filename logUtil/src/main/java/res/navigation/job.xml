@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/job"
+    app:startDestination="@id/searchJobHomeFragment">
+
+    <fragment
+        android:id="@+id/searchJobFragment"
+        android:name="com.example.smartcity_1.ui.job.SearchJobFragment"
+        android:label="找工作" />
+    <fragment
+        android:id="@+id/jobInfoFragment"
+        android:name="com.example.smartcity_1.ui.job.JobInfoFragment"
+        android:label="职位详情" />
+    <fragment
+        android:id="@+id/jobRecordFragment"
+        android:name="com.example.smartcity_1.ui.job.JobRecordFragment"
+        android:label="投递记录" />
+    <fragment
+        android:id="@+id/resumeFragment"
+        android:name="com.example.smartcity_1.ui.job.ResumeFragment"
+        android:label="个人简历" />
+    <fragment
+        android:id="@+id/searchJobHomeFragment"
+        android:name="com.example.smartcity_1.ui.job.SearchJobHomeFragment"
+        android:label="找工作" />
+</navigation>

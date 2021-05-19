@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.smartcity_1.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.smartcity_1.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.smartcity_1.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.smartcity_1.ui.news.NewsFragment"
+        android:label="@string/title_news" />
+    <fragment
+        android:id="@+id/personalFragment"
+        android:name="com.example.smartcity_1.ui.personal.PersonalFragment"
+        android:label="@string/title_personal" />
+    <fragment
+        android:id="@+id/passwordFragment"
+        android:name="com.example.smartcity_1.ui.personal.PasswordFragment"
+        android:label="修改密码" />
+    <fragment
+        android:id="@+id/feedbackFragment"
+        android:name="com.example.smartcity_1.ui.personal.FeedbackFragment"
+        android:label="意见反馈" />
+    <fragment
+        android:id="@+id/hotThemeFragment"
+        android:name="com.example.smartcity_1.ui.home.HotThemeFragment"
+        android:label="轮播图详情" />
+    <fragment
+        android:id="@+id/searchNewsFragment"
+        android:name="com.example.smartcity_1.ui.home.SearchNewsFragment"
+        android:label="搜索结果" />
+    <fragment
+        android:id="@+id/healthPinGuFragment"
+        android:name="com.example.smartcity_1.ui.notifications.HealthPinGuFragment"
+        android:label="健康评估" />
+    <fragment
+        android:id="@+id/pinTaiJianCeFragment"
+        android:name="com.example.smartcity_1.ui.notifications.PinTaiJianCeFragment"
+        android:label="平台监测" />
+    <fragment
+        android:id="@+id/xunJianRecordFragment"
+        android:name="com.example.smartcity_1.ui.notifications.XunJianRecordFragment"
+        android:label="巡检记录" />
+    <fragment
+        android:id="@+id/yangLaoJiGouChaXunFragment"
+        android:name="com.example.smartcity_1.ui.notifications.YangLaoJiGouChaXunFragment"
+        android:label="养老机构查询" />
+    <fragment
+        android:id="@+id/yuYueYangLaoYuanFragment"
+        android:name="com.example.smartcity_1.ui.notifications.YuYueYangLaoYuanFragment"
+        android:label="预约养老院" />
+    <fragment
+        android:id="@+id/jiZhongJianCeFragment"
+        android:name="com.example.smartcity_1.ui.notifications.JiZhongJianCeFragment"
+        android:label="集中监测" />
+    <fragment
+        android:id="@+id/pingJiaFragment"
+        android:name="com.example.smartcity_1.ui.notifications.PingJiaFragment"
+        android:label="评价" />
+    <fragment
+        android:id="@+id/yangLaoYuanInfoFragment"
+        android:name="com.example.smartcity_1.ui.notifications.YangLaoYuanInfoFragment"
+        android:label="~~~养老院~~~" />
+</navigation>
